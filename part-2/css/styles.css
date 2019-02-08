@@ -26,4 +26,33 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  grid-gap: 0.5em;
+  position: relative;
+}
+
+.film-poster {
+  position: relative;
+  grid-row: 1 / 2;
+}
+
+.fa-clock-o {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+}
+
+.film-details {
+  grid-row: 1 / 2;
+}
+
+.action-like {
+  color: red;
+  grid-row: 3 / 4;
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
 }
