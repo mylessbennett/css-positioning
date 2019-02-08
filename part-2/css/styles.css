@@ -31,6 +31,8 @@ figure {
   grid-template-rows: 50% 50%;
   grid-gap: 0.5em;
   position: relative;
+  border: solid rgba(232, 236, 241, 1); 0.01em;
+  padding: 13px;
 }
 
 .film-poster {
